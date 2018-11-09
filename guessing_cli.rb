@@ -12,7 +12,7 @@ def run_guessing_game
     end
     if input.to_i != num && input != "exit"
         puts "The computer guessed #{num}"
-        input = gets.chomp
+  #      input = gets.chomp
     end
   end
   puts "Goodbye!"
