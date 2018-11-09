@@ -11,7 +11,7 @@ def run_guessing_game
         puts "You guessed the correct number!"
     end
     if input.to_i != num && input != "exit"
-        puts "The computer guessed #{num}"
+        puts "The computer guessed #{num}."
   #      input = gets.chomp
     end
   end
