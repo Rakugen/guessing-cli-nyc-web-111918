@@ -13,9 +13,9 @@ def run_guessing_game
 
       elsif input.to_i != num
         puts "The computer guess #{num}"
-
+      else
+        break
       end
-
-    break
+    
   end
 end
