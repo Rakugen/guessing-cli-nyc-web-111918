@@ -16,6 +16,6 @@ def run_guessing_game
       else
         break
       end
-    
+
   end
 end
