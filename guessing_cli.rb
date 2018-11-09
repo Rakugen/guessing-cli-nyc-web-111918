@@ -12,7 +12,7 @@ def run_guessing_game
         puts "You guessed the correct number!"
 
       elsif input.to_i != num
-        puts "The computer guess #{num}"
+        puts "The computer guessed #{num}"
       else
         break
       end
