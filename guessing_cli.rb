@@ -5,14 +5,13 @@ def run_guessing_game
   while true
 
     input = gets.chomp
-      case input
-      when "exit"
+      if input == "exit"
         puts "Goodbye!"
         break
-      when input.to_i == num
+      elsif input.to_i == num
         puts "You guessed the correct number!"
 
-      when input.to_i != num
+      elsif input.to_i != num
         puts "The computer guess #{num}"
 
       end
